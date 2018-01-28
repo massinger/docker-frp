@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM  resin/armv7hf-debian
 
 COPY frpc /usr/local/bin/
 
