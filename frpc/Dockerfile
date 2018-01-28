@@ -1,4 +1,4 @@
-FROM  resin/armv7hf-debian
+FROM  troyfontaine/armhf-alpinelinux
 
 COPY frpc /usr/local/bin/
 
