@@ -1,5 +1,5 @@
 FROM  armv7/armhf-ubuntu
-
+RUN [ "cross-build-start" ]
 COPY frps /usr/local/bin/
 
 RUN chmod +x /usr/local/bin/frps && \
@@ -9,3 +9,4 @@ COPY frps.ini /etc/frp/
 
 CMD ["frps", "-c", "/etc/frp/frps.ini"]
 
+RUN [ "cross-build-end" ]
