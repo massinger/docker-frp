@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM  resin/armv7hf-debian
 
 COPY frps /usr/local/bin/
 
