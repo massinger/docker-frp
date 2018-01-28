@@ -1,4 +1,4 @@
-FROM  troyfontaine/armhf-alpinelinux
+FROM  armv7/armhf-ubuntu
 
 COPY frpc /usr/local/bin/
 
