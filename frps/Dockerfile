@@ -1,4 +1,4 @@
-FROM  armv7/armhf-ubuntu
+FROM  resin/armv7hf-debian
 RUN [ "cross-build-start" ]
 COPY frps /usr/local/bin/
 
